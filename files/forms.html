@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <title>Forms practice</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body{
+            background-color: blue;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #7300ff">
 
 <form>
-    <p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Cupiditate, deserunt dicta, doloremque eius,
+        est magnam magni nesciunt nihil optio quasi quidem
+        quisquam quod sequi ullam voluptate?
+        Iusto saepe, velit! Nostrum.</p>
+    <p style="background-color: burlywood">
         Username:
         <input type="text" name="username" placeholder="Type your username">
     </p>
@@ -19,7 +30,7 @@
     </p>
     <textarea cols="30" rows="7" placeholder="Enter your comment here"></textarea>
     <br>
-    <p>Select your favorite food</p>
+    <p class="class1">Select your favorite food</p>
     <input type="radio" name="food" value="burger" disabled>Burger
     <input type="radio" name="food" value="kabab" checked="checked">Kabab
     <input type="radio" name="food" value="salad">Salad
@@ -52,7 +63,7 @@
     </select>
     <br>
     <br>
-    <input type="submit" value="Sign Up" id="signup">
+    <input class="button-18" type="submit" value="Sign Up" id="signup">
 
 </form>
 </body>
