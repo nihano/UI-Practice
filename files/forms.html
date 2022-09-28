@@ -5,5 +5,52 @@
 </head>
 <body>
 
+<form>
+    <p>
+        Username:
+        <input type="text" name="username" placeholder="Type your username">
+    </p>
+    <p>
+        Password:
+        <input type="password">
+    </p>
+    <p>
+        What did you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment here"></textarea>
+    <br>
+    <p>Select your favorite food</p>
+    <input type="radio" name="food" value="burger" disabled>Burger
+    <input type="radio" name="food" value="kabab" checked="checked">Kabab
+    <input type="radio" name="food" value="salad">Salad
+    <br>
+    <p>Pick a date:
+        <input type="date">
+    </p>
+    <input type="datetime-local">
+    <p>Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+    <p>
+        Please select your favorite course(s)
+    </p>
+    <label for="j">
+        <input type="checkbox" name="course" value="java" id="j">Java
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+    <input type="checkbox" name="course" value="UI">UI
+    <input type="checkbox" name="course" value="softSkill">Soft Skill
+
+    <p>Please select the course:</p>
+    <select name="course" >
+        <option value="" disabled selected>Select a course </option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+
+</form>
 </body>
 </html>
